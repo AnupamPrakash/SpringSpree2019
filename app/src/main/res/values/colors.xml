@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gradstart">#2f2a29</color>
+    <color name="gradend">#cc4429</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#0000</color>
+    <color name="shadowed">#584C4A</color>
+    <color name="fab_background">#FF8F8C8C</color>
+</resources>

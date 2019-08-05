@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.springpspree.nitw.springspree2019"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 3
+        versionName "3.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.cardview:cardview:1.0.0-beta01'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.android.material:material:1.0.0-beta01'
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0-beta01'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.facebook.shimmer:shimmer:0.4.0'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.google.code.gson:gson:2.4'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
+}

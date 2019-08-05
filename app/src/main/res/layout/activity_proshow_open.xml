@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ProshowOpen">
+    <ImageView
+        android:id="@+id/proshowposter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@color/shadowed"/>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        app:fab_addButtonColorNormal="@color/gradend"
+        app:fab_addButtonColorPressed="@color/gradstart"
+        app:fab_addButtonSize="normal"
+        app:fab_addButtonPlusIconColor="@color/white"
+        app:fab_labelStyle="@style/customFab" >
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_size="mini"
+            android:padding="3dp"
+            app:fab_icon="@drawable/ic_launch_black_24dp"
+            app:fab_colorNormal="@color/gradend"
+            app:fab_colorPressed="@color/gradstart"
+            app:fab_title="Register"
+            app:fab_stroke_visible="true"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_share_black_24dp"
+            app:fab_colorNormal="@color/gradend"
+            app:fab_colorPressed="@color/gradstart"
+            app:fab_title="Share"
+            app:fab_stroke_visible="true"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

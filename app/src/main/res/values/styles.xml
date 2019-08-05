@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/gradend</item>
+        <item name="colorPrimaryDark">@color/gradstart</item>
+        <item name="colorAccent">@color/gradend</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="customFab">
+        <!--<item name="android:background">@color/gradstart</item>-->
+        <item name="android:textColor">@color/gradend</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
